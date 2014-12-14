@@ -505,7 +505,7 @@
         if(typeof arguments[0] === "string" || arguments[0] instanceof String){
           
      
-            xhr.open('GET', url, true);
+            xhr.open('GET', arguments[0], true);
             xhr.send();
            
         }else {
