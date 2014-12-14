@@ -530,7 +530,7 @@
 
         return this;
 
-    },
+    }},
     returnMyAjax = function(arguments){
         return new myAjax(arguments);
       
